@@ -1,0 +1,72 @@
+/* styles/UpdateProduct.css */
+
+.updateProduct {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .updateProduct h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .updateProduct form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .updateProduct .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .updateProduct label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .updateProduct input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  
+  .updateProduct input[type="number"]::-webkit-outer-spin-button,
+  .updateProduct input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .updateProduct button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .updateProduct button:hover {
+    background-color: #0056b3;
+  }
+  
+  .updateProduct .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .updateProduct .success {
+    color: green;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,51 @@
+/* CreateProduct.css */
+.create-product {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .create-product h1 {
+    text-align: center;
+  }
+  
+  .create-product .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .create-product label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .create-product input,
+  .create-product select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .create-product button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create-product button:disabled {
+    background-color: #6c757d;
+  }
+  
+  .success {
+    color: green;
+    text-align: center;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
